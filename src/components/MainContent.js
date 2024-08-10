@@ -26,7 +26,7 @@ const MainContent = () => {
 
         <div className="flex bg-blue-900 text-white mt-4 rounded-lg overflow-hidden">
           <img
-            src="images/ad_pic.png"
+            src="images/ad_pic.PNG"
             alt="Funeral Edition"
             className="w-1/3 object-cover"
           />
