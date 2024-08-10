@@ -3,7 +3,7 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div className="w-1/4 bg-white-1000 p-10 text-white">
+    <div className="w-1/4 bg-white-1000 p-10">
       <h2 className="text-lg font-semibold"> <img src="images/logo.png" /> </h2>
 
       <ul className="mt-4">

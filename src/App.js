@@ -5,10 +5,12 @@ import ProfileSection from "./components/ProfileSection";
 
 function App() {
   return (
-    <div className="flex min-h-screen bg-gray-100">
+    <div className="flex h-screen">
       <Sidebar />
       <div className="flex flex-grow">
-        <MainContent />
+        <div className="flex-grow h-screen overflow-y-scroll">
+          <MainContent />
+        </div>
         <ProfileSection />
       </div>
     </div>

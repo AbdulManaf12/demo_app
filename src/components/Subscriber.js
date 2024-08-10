@@ -13,7 +13,7 @@ const Subscriber = ({ pic_path, name, email, number_of_participants }) => {
         <p className="text-blue-900 text-sm">{email}</p>
       </div>
       <div className="text-right">
-        <p className="font-bold text-blue-900">{number_of_participants}</p>
+        <p className="font-bold text-blue-900 text-center">{number_of_participants}</p>
         <p className="text-sm text-blue-900">Participants</p>
       </div>
     </div>
